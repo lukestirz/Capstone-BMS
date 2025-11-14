@@ -5,7 +5,7 @@
 	(uuid "b5d675d2-00ef-4e43-9361-659552bf3980")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SamacSys_Parts:MP2639AGR-Z"
+		(symbol "SamacSys_Parts:MP2634"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "MP2639AGR-Z"
+			(property "Value" "MP2634"
 				(at 26.67 15.24 0)
 				(effects
 					(font
@@ -47,8 +47,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Battery Management 2-Cell 2.5A Li-ion or Li-polymer Switching Charger Integrated Bidirectional Charge/Discharge"
-				(at 0 0 0)
+			(property "Description" "Integrated, 2A, BidirectionalActive Balancer"
+				(at 12.446 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -126,9 +126,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MP2639AGR-Z_1_1"
+			(symbol "MP2634_1_1"
 				(rectangle
-					(start 5.08 12.7)
+					(start 0 12.7)
 					(end 25.4 -25.4)
 					(stroke
 						(width 0.254)
@@ -139,9 +139,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -5.08 0 0)
 					(length 5.08)
-					(name "VL"
+					(name "CL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,7 +157,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "LX"
 						(effects
@@ -175,9 +175,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at -5.08 -5.08 0)
 					(length 5.08)
-					(name "VH"
+					(name "CU"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,7 +193,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at -5.08 -7.62 0)
 					(length 5.08)
 					(name "SW"
 						(effects
@@ -211,7 +211,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at -5.08 -10.16 0)
 					(length 5.08)
 					(name "PGND"
 						(effects
@@ -229,9 +229,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 17.78 270)
+					(at 6.35 17.78 270)
 					(length 5.08)
-					(name "~{CHG}"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -247,7 +247,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -30.48 90)
+					(at 6.35 -30.48 90)
 					(length 5.08)
 					(name "BST"
 						(effects
@@ -265,9 +265,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 17.78 270)
+					(at 8.89 17.78 270)
 					(length 5.08)
-					(name "~{ACLK}"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -283,9 +283,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -30.48 90)
+					(at 8.89 -30.48 90)
 					(length 5.08)
-					(name "~{PB}"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,9 +301,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 17.78 270)
+					(at 11.43 17.78 270)
 					(length 5.08)
-					(name "ILIM"
+					(name "UBC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,7 +319,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -30.48 90)
+					(at 11.43 -30.48 90)
 					(length 5.08)
 					(name "MODE"
 						(effects
@@ -337,9 +337,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 17.78 270)
+					(at 13.97 17.78 270)
 					(length 5.08)
-					(name "ISET"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -354,10 +354,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 -30.48 90)
+				(pin power_in line
+					(at 13.97 -30.48 90)
 					(length 5.08)
-					(name "VCC"
+					(name "4V5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,9 +373,9 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 17.78 270)
+					(at 16.51 17.78 270)
 					(length 5.08)
-					(name "OLIM"
+					(name "LBC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -391,7 +391,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 -30.48 90)
+					(at 16.51 -30.48 90)
 					(length 5.08)
 					(name "AGND"
 						(effects
@@ -408,10 +408,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 17.78 270)
+				(pin no_connect line
+					(at 19.05 17.78 270)
 					(length 5.08)
-					(name "IB"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -427,9 +427,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -30.48 90)
+					(at 19.05 -30.48 90)
 					(length 5.08)
-					(name "TMR"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -444,10 +444,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 22.86 17.78 270)
+				(pin no_connect line
+					(at 21.59 17.78 270)
 					(length 5.08)
-					(name "NTC"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -463,9 +463,9 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -30.48 90)
+					(at 21.59 -30.48 90)
 					(length 5.08)
-					(name "MIND"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,10 +480,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 30.48 0 180)
 					(length 5.08)
-					(name "VNTC"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -501,7 +501,7 @@
 				(pin passive line
 					(at 30.48 -2.54 180)
 					(length 5.08)
-					(name "VLIM"
+					(name "LOGIC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -519,7 +519,7 @@
 				(pin passive line
 					(at 30.48 -5.08 180)
 					(length 5.08)
-					(name "FB"
+					(name "CU_FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -537,7 +537,7 @@
 				(pin passive line
 					(at 30.48 -7.62 180)
 					(length 5.08)
-					(name "LED4"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -555,7 +555,7 @@
 				(pin passive line
 					(at 30.48 -10.16 180)
 					(length 5.08)
-					(name "LED3"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,7 +573,7 @@
 				(pin passive line
 					(at 30.48 -12.7 180)
 					(length 5.08)
-					(name "LED2"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -591,7 +591,7 @@
 				(pin passive line
 					(at 30.48 -15.24 180)
 					(length 5.08)
-					(name "LED1"
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -611,33 +611,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:MP2639AGR-Z")
-		(at 115.57 81.28 0)
+		(lib_id "SamacSys_Parts:MP2634")
+		(at 115.57 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f657331-d1fe-45e4-b8e4-1a43e01ac870")
+		(uuid "4a80f33f-fe23-4714-b8b1-5979779e314e")
 		(property "Reference" "IC1"
-			(at 111.76 74.8598 0)
+			(at 110.49 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MP2639AGR-Z"
-			(at 111.76 77.3998 0)
+		(property "Value" "MP2634"
+			(at 110.49 74.8598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MP2639AGRZ"
-			(at 142.24 166.04 0)
+		(property "Footprint" "SamacSys_Parts:MP2634"
+			(at 142.24 163.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +647,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.monolithicpower.com/pub/media/document/MP2639A_r1.0.pdf"
-			(at 142.24 266.04 0)
+			(at 142.24 263.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,8 +656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Battery Management 2-Cell 2.5A Li-ion or Li-polymer Switching Charger Integrated Bidirectional Charge/Discharge"
-			(at 115.57 81.28 0)
+		(property "Description" "Integrated, 2A, BidirectionalActive Balancer"
+			(at 128.016 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,7 +666,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 142.24 466.04 0)
+			(at 142.24 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +676,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Monolithic Power Systems (MPS)"
-			(at 142.24 566.04 0)
+			(at 142.24 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MP2639AGR-Z"
-			(at 142.24 666.04 0)
+			(at 142.24 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +696,7 @@
 			)
 		)
 		(property "Mouser Part Number" "946-MP2639AGR-Z"
-			(at 142.24 766.04 0)
+			(at 142.24 763.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +706,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2639AGR-Z?qs=YCa%2FAAYMW004W5DDRZSXeQ%3D%3D"
-			(at 142.24 866.04 0)
+			(at 142.24 863.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +716,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 142.24 966.04 0)
+			(at 142.24 963.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 142.24 1066.04 0)
+			(at 142.24 1063.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,82 +736,82 @@
 			)
 		)
 		(pin "6"
-			(uuid "e1645460-e674-46b3-99e2-8422216b6eae")
-		)
-		(pin "25"
-			(uuid "8741503e-058b-4534-9ef7-e087b98200b6")
-		)
-		(pin "9"
-			(uuid "607a42eb-15ce-4dbc-9d16-f46988852c44")
-		)
-		(pin "22"
-			(uuid "954b1034-b04c-4bcd-922a-4d704a287a28")
-		)
-		(pin "5"
-			(uuid "594cabe7-1aa8-4039-95a0-1096afecd8e5")
-		)
-		(pin "7"
-			(uuid "03169fb2-4bac-4156-887c-4f494d7c1c43")
-		)
-		(pin "21"
-			(uuid "8b7cca0b-da1e-4aa2-a154-00c5fef16d8e")
-		)
-		(pin "23"
-			(uuid "787441bc-e395-4815-874a-497617ae1c66")
-		)
-		(pin "24"
-			(uuid "46563a83-999a-47df-b1d8-18cf87ad597f")
-		)
-		(pin "8"
-			(uuid "98d45d74-041f-4004-b0c5-9f9c6642ce87")
-		)
-		(pin "14"
-			(uuid "1e5abc85-86eb-4683-bb89-8fc75f73340c")
-		)
-		(pin "2"
-			(uuid "26f55776-58d0-42ef-b3d3-d02e5ec0cbb5")
-		)
-		(pin "3"
-			(uuid "ca3b21b3-dfa1-4881-95dc-8d097cec8dad")
-		)
-		(pin "1"
-			(uuid "21dc0718-9d4c-4161-baeb-f02c5e12f0ae")
-		)
-		(pin "4"
-			(uuid "7ace5441-a8b2-4185-ba82-749a0adf2161")
-		)
-		(pin "26"
-			(uuid "49561e35-e17a-4e7b-b9d1-ae8d0fbfbc9c")
-		)
-		(pin "10"
-			(uuid "d9d0cdc1-a80e-4b00-aa28-a85f0493abc7")
-		)
-		(pin "12"
-			(uuid "afe6648b-0386-4be0-aaab-d5084f3cb534")
-		)
-		(pin "19"
-			(uuid "c16aaed1-c8c3-4d3f-a5f3-ce0c4ceb110d")
-		)
-		(pin "20"
-			(uuid "dc8bee4c-26e4-4a65-a98a-91f56c93875c")
-		)
-		(pin "15"
-			(uuid "cf7a45ad-440b-4026-96af-49647208aca2")
-		)
-		(pin "11"
-			(uuid "2bb79379-8c06-4477-9250-4279d37574e7")
+			(uuid "c6516be6-15bb-402e-9bc9-96858cbd18b0")
 		)
 		(pin "18"
-			(uuid "bfc2b73b-6ca8-4d36-a5c8-17b45cd23226")
+			(uuid "cc053901-e8dd-4e60-a4a6-1704f4385936")
+		)
+		(pin "20"
+			(uuid "062f231c-d6fd-42f0-8aac-66869025e131")
+		)
+		(pin "15"
+			(uuid "8782f841-aed3-4f6e-99bc-da76af83b3fa")
+		)
+		(pin "1"
+			(uuid "67a9ac44-be8f-444d-9d8b-0da641161545")
+		)
+		(pin "22"
+			(uuid "55472787-0866-4158-9fe9-f3dcfd598a35")
+		)
+		(pin "25"
+			(uuid "e824226f-ba67-40bd-a035-79c7c6660399")
+		)
+		(pin "11"
+			(uuid "4bb16cc4-917e-4c94-9202-54cc625a2a30")
+		)
+		(pin "26"
+			(uuid "8f586a05-221a-402e-8491-197520cf7567")
+		)
+		(pin "10"
+			(uuid "7c8a7afb-80ca-4164-8d3a-a2980c17c41c")
+		)
+		(pin "21"
+			(uuid "7c9dc83f-7999-4ed2-a8a9-02fa344622bf")
+		)
+		(pin "7"
+			(uuid "15a5123c-48df-463e-8330-d241694e2d59")
+		)
+		(pin "5"
+			(uuid "48c130fd-fbca-44be-972e-90e64c50bba6")
+		)
+		(pin "24"
+			(uuid "ebf18bcb-2e1c-46bc-8688-8e296a487f4e")
+		)
+		(pin "19"
+			(uuid "f427c592-b9a7-46c0-bed8-aea215c3ce4a")
+		)
+		(pin "23"
+			(uuid "befdd765-e798-4a52-b8d5-d3456aa49dca")
+		)
+		(pin "9"
+			(uuid "644f3d19-96cc-43e9-9a44-96b2c2d7d14d")
+		)
+		(pin "2"
+			(uuid "e33bbb12-0586-46b9-bef6-b5e21c3076ed")
+		)
+		(pin "8"
+			(uuid "67591650-83c3-48e0-93f0-8e95e20f0b33")
+		)
+		(pin "3"
+			(uuid "37345111-c2a8-4ca3-bc16-6f6b1b369d4d")
+		)
+		(pin "4"
+			(uuid "b8259f4c-3908-4ba8-a6ec-1985b82e6c01")
+		)
+		(pin "12"
+			(uuid "b815eb5b-faa2-444f-bf7f-bc624648918d")
 		)
 		(pin "17"
-			(uuid "2886ac2b-53ef-421d-b962-063365683ee8")
+			(uuid "1a810f6e-3c9f-468b-85e6-af10ce1e8d0a")
 		)
 		(pin "16"
-			(uuid "0290c915-3a89-41c4-93f2-3861af6ad4a9")
+			(uuid "7bbd393c-eeb1-44f7-83b0-01928e11b63b")
 		)
 		(pin "13"
-			(uuid "cb816675-9202-4bce-8056-e0c6c3f2e2e8")
+			(uuid "e7373842-9473-41a4-9bcb-dfbab1b4c8bc")
+		)
+		(pin "14"
+			(uuid "a406aa84-ba12-42a0-ab91-b0f036283bfa")
 		)
 		(instances
 			(project ""
