@@ -1,4 +1,4 @@
-24746128237642860
+24747891396283663
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91209,6 +91209,13 @@ Integrated Circuit
 0
 26
 26
+SamacSys_Parts
+MPLAL4020R47 Inductor
+MPL-AL4020-R47-1
+Inductor
+0
+2
+2
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)

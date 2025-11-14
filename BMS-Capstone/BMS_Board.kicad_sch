@@ -430,6 +430,324 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:FODM121"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 9.398 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FODM121"
+				(at 9.398 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP254P675X240-4N"
+				(at 34.29 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FODM2705-D.PDF"
+				(at 34.29 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "More than 5mm Creepage/Clearance; Current Transfer Ratio in Selected Groups DC Input: FODM121: 50600% FODM121A: 100300% FODM121B: 50150% FODM121C: 100200% FODM124: 100% MIN FODM2701: 50300% AC Input: FODM2705: 50300%; Compact 4-Pin Surface Mount Package (2.4mm Maximum Standoff Height); Safety and Regulatory Approvals:  UL1577, 3,750 VACRMS for 1 Minute  DINEN/IEC6074755, 565 V Peak Working Insulation Voltage"
+				(at 0.254 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.4"
+				(at 34.29 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 34.29 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FODM121"
+				(at 34.29 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "512-FODM121"
+				(at 34.29 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FODM121?qs=w2ACn%2FLS38GgqMJzTFLjmA%3D%3D"
+				(at 34.29 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "FODM121"
+				(at 34.29 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fodm121/on-semiconductor?region=europe"
+				(at 34.29 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FODM121_0_1"
+				(polyline
+					(pts
+						(xy 8.89 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.3001 -3.7599) (xy 8.9116 -3.7815) (xy 9.0411 -3.3067)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.0737 -1.8675) (xy 8.5197 -1.1336) (xy 8.5197 0.0318) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.1193) (xy 8.89 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -2.54) (xy 16.51 -3.81) (xy 20.32 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -2.54) (xy 17.78 -1.27) (xy 15.24 -1.27) (xy 16.51 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 0) (xy 16.51 0) (xy 16.51 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FODM121_1_1"
+				(rectangle
+					(start 20.32 2.54)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -3.81 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:MP2643"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1054,6 +1372,12 @@
 		(uuid "18de0ea1-1ca5-40a9-b54f-5d6158d8e94e")
 	)
 	(junction
+		(at 93.98 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "274f218a-a4df-4a29-b3e6-45b1ce41deae")
+	)
+	(junction
 		(at 104.14 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1076,6 +1400,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "551b7a85-acf9-4ec4-bdc1-b9956a98f19e")
+	)
+	(junction
+		(at 123.19 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ccd4cc9-690e-4c61-81f3-43677a6f07de")
+	)
+	(junction
+		(at 123.19 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71956103-5133-4c74-a93a-0e7bd781dd5f")
 	)
 	(junction
 		(at 109.22 97.79)
@@ -1114,6 +1450,12 @@
 		(uuid "b9eb5926-b736-41c7-8aa0-2c75032e1a51")
 	)
 	(junction
+		(at 129.54 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be89986b-7127-48d4-abae-a059a56c41a3")
+	)
+	(junction
 		(at 99.06 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1142,6 +1484,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef1c78db-1571-4ba1-8a84-9669b7bcd665")
+	)
+	(junction
+		(at 135.89 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbfc0085-8218-4e6e-90e4-93a9c9561b3b")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f8ffdf-37cc-4bb3-a65d-a83fd8a5847c")
 	)
 	(wire
 		(pts
@@ -1185,6 +1543,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 45.72) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177d3d94-42b3-45fd-9ebb-4c56ec044301")
+	)
+	(wire
+		(pts
 			(xy 46.99 69.85) (xy 46.99 72.39)
 		)
 		(stroke
@@ -1205,6 +1573,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1893ff79-f7dc-43e5-b8f4-4d5beb4b06f6")
+	)
+	(wire
+		(pts
+			(xy 135.89 73.66) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0ff3a5-7d98-41f0-af44-9effcfdd69e6")
+	)
+	(wire
+		(pts
 			(xy 93.98 97.79) (xy 93.98 109.22)
 		)
 		(stroke
@@ -1215,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 123.19 72.39)
+			(xy 124.46 72.39) (xy 123.19 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1232,6 +1620,16 @@
 			(type default)
 		)
 		(uuid "237421c9-080e-41c7-8e71-b7a905742677")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 129.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2645d37a-0474-4f89-8504-6af986bbf8f9")
 	)
 	(wire
 		(pts
@@ -1335,6 +1733,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58929eb7-280f-4cfd-bf1b-a09274f3f62c")
+	)
+	(wire
+		(pts
 			(xy 72.39 74.93) (xy 62.23 74.93)
 		)
 		(stroke
@@ -1362,6 +1770,16 @@
 			(type default)
 		)
 		(uuid "6f49e796-8bf6-4180-87fb-c5417f920330")
+	)
+	(wire
+		(pts
+			(xy 123.19 77.47) (xy 129.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b2a501-3e99-4b1e-af25-74a448880a4c")
 	)
 	(wire
 		(pts
@@ -1395,6 +1813,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77571789-3a71-471a-b18c-2975e458777b")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7891fdac-345f-4bdb-88ff-3ea6dd8615cd")
+	)
+	(wire
+		(pts
 			(xy 91.44 34.29) (xy 91.44 39.37)
 		)
 		(stroke
@@ -1405,16 +1843,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 114.3 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79fe0612-2141-4550-a6c2-6ba5242f1571")
-	)
-	(wire
-		(pts
 			(xy 99.06 97.79) (xy 101.6 97.79)
 		)
 		(stroke
@@ -1422,6 +1850,16 @@
 			(type default)
 		)
 		(uuid "7af778ab-84a2-42dd-94db-667c636fc983")
+	)
+	(wire
+		(pts
+			(xy 129.54 109.22) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea8a42b-0800-40cd-88e1-8e7c97b32f1f")
 	)
 	(wire
 		(pts
@@ -1445,6 +1883,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 96.52) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e1ba6c-0b5a-4fa5-838c-183505afc31e")
+	)
+	(wire
+		(pts
 			(xy 46.99 83.82) (xy 46.99 95.25)
 		)
 		(stroke
@@ -1452,6 +1900,26 @@
 			(type default)
 		)
 		(uuid "935ab9ad-b0ed-4eb7-bd0f-8c428453f7ec")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a12e7d7-ccc6-4b07-a9fe-ba0b7c4b299c")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4a3b14-ba80-4962-b7d5-7df31ef4f18b")
 	)
 	(wire
 		(pts
@@ -1505,6 +1973,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be40820f-e9a9-4a48-be57-7fdf9bab48ea")
+	)
+	(wire
+		(pts
 			(xy 54.61 72.39) (xy 76.2 72.39)
 		)
 		(stroke
@@ -1535,6 +2013,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 109.22) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d875a5d9-1b9f-467c-b759-1be61ae32e76")
+	)
+	(wire
+		(pts
 			(xy 46.99 59.69) (xy 60.96 59.69)
 		)
 		(stroke
@@ -1542,6 +2030,16 @@
 			(type default)
 		)
 		(uuid "e324db99-7ea3-4537-99c4-f498c2575b24")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39ac9cd-ccdc-48b4-b271-835c4b8d88f4")
 	)
 	(wire
 		(pts
@@ -1614,7 +2112,7 @@
 		(uuid "fed4db73-80dd-4b3e-9a54-ea404c301fc9")
 	)
 	(label "VCC1"
-		(at 127 72.39 0)
+		(at 124.46 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1668,7 +2166,7 @@
 	)
 	(hierarchical_label "CELL1+{slash}CELL2-"
 		(shape input)
-		(at 114.3 45.72 0)
+		(at 132.08 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1840,7 +2338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:MPLAL4020R47 Inductor"
 			(at 102.87 34.29 0)
 			(effects
 				(font
@@ -1877,6 +2375,76 @@
 			(project ""
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f087d8b-5c53-48ec-b228-cb63112c4aba")
+		(property "Reference" "R6"
+			(at 125.73 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 125.73 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 121.412 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2c7d32c-1050-4033-b72e-6ab8637473ed")
+		)
+		(pin "2"
+			(uuid "ae46a198-7478-4b8e-ab99-c06c6e4f9ecb")
+		)
+		(instances
+			(project "BMS"
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2090,6 +2658,152 @@
 			(project ""
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:FODM121")
+		(at 137.16 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "815b890b-c15b-41ea-b506-f42ca5715fc4")
+		(property "Reference" "Q1"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FODM121"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP254P675X240-4N"
+			(at 171.45 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FODM2705-D.PDF"
+			(at 171.45 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "More than 5mm Creepage/Clearance; Current Transfer Ratio in Selected Groups DC Input: FODM121: 50600% FODM121A: 100300% FODM121B: 50150% FODM121C: 100200% FODM124: 100% MIN FODM2701: 50300% AC Input: FODM2705: 50300%; Compact 4-Pin Surface Mount Package (2.4mm Maximum Standoff Height); Safety and Regulatory Approvals:  UL1577, 3,750 VACRMS for 1 Minute  DINEN/IEC6074755, 565 V Peak Working Insulation Voltage"
+			(at 137.414 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.4"
+			(at 171.45 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 171.45 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FODM121"
+			(at 171.45 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-FODM121"
+			(at 171.45 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FODM121?qs=w2ACn%2FLS38GgqMJzTFLjmA%3D%3D"
+			(at 171.45 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FODM121"
+			(at 171.45 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fodm121/on-semiconductor?region=europe"
+			(at 171.45 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f862b06-d303-47e5-8724-683ea0e466c7")
+		)
+		(pin "3"
+			(uuid "96c21916-73f0-4544-a677-72ca364117c2")
+		)
+		(pin "1"
+			(uuid "9aa15997-0466-403c-9489-b3ee0d0c26ac")
+		)
+		(pin "4"
+			(uuid "2cf9f6af-1d45-4c3d-938b-1923907e8559")
+		)
+		(instances
+			(project ""
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2375,6 +3089,151 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:FODM121")
+		(at 137.16 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb4356a0-3acc-45dc-b048-c4e6efd3b19f")
+		(property "Reference" "Q2"
+			(at 149.86 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FODM121"
+			(at 149.86 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP254P675X240-4N"
+			(at 171.45 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FODM2705-D.PDF"
+			(at 171.45 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "More than 5mm Creepage/Clearance; Current Transfer Ratio in Selected Groups DC Input: FODM121: 50600% FODM121A: 100300% FODM121B: 50150% FODM121C: 100200% FODM124: 100% MIN FODM2701: 50300% AC Input: FODM2705: 50300%; Compact 4-Pin Surface Mount Package (2.4mm Maximum Standoff Height); Safety and Regulatory Approvals:  UL1577, 3,750 VACRMS for 1 Minute  DINEN/IEC6074755, 565 V Peak Working Insulation Voltage"
+			(at 137.414 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.4"
+			(at 171.45 483.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 171.45 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FODM121"
+			(at 171.45 683.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-FODM121"
+			(at 171.45 783.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FODM121?qs=w2ACn%2FLS38GgqMJzTFLjmA%3D%3D"
+			(at 171.45 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FODM121"
+			(at 171.45 983.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fodm121/on-semiconductor?region=europe"
+			(at 171.45 1083.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0178ed0-a967-4966-b72f-f0f9e304e3c1")
+		)
+		(pin "4"
+			(uuid "02fc8769-772e-4a51-a371-108135b8de88")
+		)
+		(pin "3"
+			(uuid "56aca04f-8e56-4561-80cc-db85a228709e")
+		)
+		(pin "2"
+			(uuid "c6594476-49c1-4de2-8382-e6fb6932483a")
+		)
+		(instances
+			(project ""
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 74.93 101.6 0)
 		(unit 1)
@@ -2577,6 +3436,76 @@
 			(project ""
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9484bf2-e5e7-4a21-b158-e90e9e91f0fe")
+		(property "Reference" "R7"
+			(at 132.08 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 132.08 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 127.762 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7762386-e97e-41c8-a398-4062a5dc1ee5")
+		)
+		(pin "2"
+			(uuid "23c133e7-87a1-441f-91d3-c5f6a17aa021")
+		)
+		(instances
+			(project "BMS"
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
+					(reference "R7")
 					(unit 1)
 				)
 			)
