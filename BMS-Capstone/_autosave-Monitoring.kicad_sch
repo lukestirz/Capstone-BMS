@@ -5383,7 +5383,7 @@
 		)
 		(uuid "8c5a6825-e255-4a6d-97dd-279dbdd9b095")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 162.56 105.41 0)
 		(effects
