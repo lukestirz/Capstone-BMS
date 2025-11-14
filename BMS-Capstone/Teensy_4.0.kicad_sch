@@ -140,7 +140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c01f940-a660-4873-9dbe-07fd949807a0")
-		(property "Reference" "R"
+		(property "Reference" "R?"
 			(at 157.48 83.8199 0)
 			(effects
 				(font
@@ -191,6 +191,13 @@
 		(pin "2"
 			(uuid "ea68ef1e-5910-4f61-998c-779bd84e629c")
 		)
-		(instances)
+		(instances
+			(project "BMS"
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/26bdc180-da09-44b1-8397-e88b39d0135c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
