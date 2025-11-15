@@ -1733,16 +1733,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 114.3 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58929eb7-280f-4cfd-bf1b-a09274f3f62c")
-	)
-	(wire
-		(pts
 			(xy 72.39 74.93) (xy 62.23 74.93)
 		)
 		(stroke
@@ -1790,6 +1780,16 @@
 			(type default)
 		)
 		(uuid "729096cd-cbe3-4d44-ad90-31688bdc4c2b")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 135.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73efd3cb-c4d7-4549-8663-d182073b9315")
 	)
 	(wire
 		(pts
@@ -2166,7 +2166,7 @@
 	)
 	(hierarchical_label "CELL1+{slash}CELL2-"
 		(shape input)
-		(at 132.08 45.72 0)
+		(at 135.89 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
