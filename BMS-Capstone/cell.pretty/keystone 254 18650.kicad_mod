@@ -1,0 +1,120 @@
+(footprint "keystone 254 18650"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "CELL**"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4510534f-552f-4db1-bdf5-13c85b34de70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "keystone 254 18650"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "36c3311e-c526-4bac-887b-e007af177247")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07a88072-36b8-4ae2-b5d6-0ab8b0c2e2bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69488acb-aa93-4726-9e5d-323fba3e2bce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0f6d05e-9e22-4b8b-9bdd-022ba5332bc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -37.24656 0)
+		(size 4.2418 3.302)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b1d01606-246c-4a9c-b62f-da10f583d0fd")
+	)
+	(pad "1" smd roundrect
+		(at -21.21916 0)
+		(size 4.2418 5.207)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c88e125b-ec7f-46c3-b6e8-9a2a333ff821")
+	)
+	(pad "2" smd roundrect
+		(at 21.21916 0 180)
+		(size 4.2418 5.207)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0df83d57-7fcc-4fa2-842e-774e12e7ea0d")
+	)
+	(pad "2" smd roundrect
+		(at 37.24656 0 180)
+		(size 4.2418 3.302)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e15ab9ab-20e1-4c40-a641-02bdbd7a5890")
+	)
+	(embedded_fonts no)
+	(model "D:/Capstone/254TR--3DModel-STEP-269445/254TR--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 28.448 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "D:/Capstone/254TR--3DModel-STEP-269445/254TR--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz -28.448 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -1069,7 +1069,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Fujitsu_FTR-LYAA005x"
+		(symbol "Relay:DIPxx-1Cxx-51x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1082,7 +1082,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Fujitsu_FTR-LYAA005x"
+			(property "Value" "DIPxx-1Cxx-51x"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -1091,7 +1091,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(property "Footprint" "Relay_THT:Relay_StandexMeder_DIP_LowProfile"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -1101,17 +1101,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-				(at 17.78 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(property "Datasheet" "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1120,7 +1110,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "6A SPST-NO Relay"
+			(property "Description" "Standex Meder DIP reed relay, SPDT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1129,7 +1119,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYA*"
+			(property "ki_keywords" "Single Pole Reed Relay SPDT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1138,7 +1128,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_0"
+			(property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIPxx-1Cxx-51x_0_0"
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -1152,7 +1163,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_1"
+			(symbol "DIPxx-1Cxx-51x_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1296,7 +1307,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_1_1"
+			(symbol "DIPxx-1Cxx-51x_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -1307,7 +1318,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1325,7 +1336,25 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1343,7 +1372,26 @@
 							)
 						)
 					)
-					(number "13"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2341,6 +2389,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:DIPxx-1Cxx-51x")
+		(at 129.54 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a29bc2a-dd20-407e-8833-ed01b6afe7b9")
+		(property "Reference" "K1"
+			(at 140.97 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "J107F1CS203VDC.80"
+			(at 140.97 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cell:3_3v relay"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standex Meder DIP reed relay, SPDT"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c22822b0-e234-488b-ad0d-8ae11984cee6")
+		)
+		(pin "8"
+			(uuid "2d6ed530-6592-45af-a8d4-ee5b06066a57")
+		)
+		(pin "6"
+			(uuid "4ff7256c-c8f8-40c9-b3d2-bbc51aca7212")
+		)
+		(pin "14"
+			(uuid "5f00bcc7-37da-4881-969e-f987d97e75c2")
+		)
+		(pin "7"
+			(uuid "fa6f49d2-e9cc-4a17-8a93-400d8202da70")
+		)
+		(pin "2"
+			(uuid "ed24fb12-42be-4a1a-a1b7-8c76e67de341")
+		)
+		(instances
+			(project ""
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/cf34981b-cbae-442d-9f72-9ae4895e9d63"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
 		(at 50.8 111.76 180)
 		(unit 1)
@@ -2366,7 +2497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 50.8 111.76 0)
 			(effects
 				(font
@@ -2433,84 +2564,6 @@
 			(project ""
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/cf34981b-cbae-442d-9f72-9ae4895e9d63"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 129.54 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "654677bc-a9d4-4311-b9b4-91f6690128e3")
-		(property "Reference" "K1"
-			(at 140.97 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "J107F1CS203VDC.80"
-			(at 140.97 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 140.97 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 129.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "e6937166-b21a-4ae8-a8e1-b97f5802b8e2")
-		)
-		(pin "A2"
-			(uuid "322c70fa-c0dc-4c5b-b918-f283a578c239")
-		)
-		(pin "13"
-			(uuid "d193c687-6ff7-4dd0-8f8f-850654265139")
-		)
-		(pin "14"
-			(uuid "65c0299e-7eaf-4319-a815-322ae06df328")
-		)
-		(instances
-			(project ""
-				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/cf34981b-cbae-442d-9f72-9ae4895e9d63"
-					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -2816,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 157.48 80.01 0)
 			(effects
 				(font
@@ -2886,7 +2939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -3294,7 +3347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 157.48 151.13 0)
 			(effects
 				(font
@@ -3364,7 +3417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cell:XT60"
 			(at 137.16 38.1 0)
 			(effects
 				(font

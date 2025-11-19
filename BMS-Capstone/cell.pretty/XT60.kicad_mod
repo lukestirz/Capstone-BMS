@@ -1,0 +1,112 @@
+(footprint "XT60"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "67cd7f90-7819-4d8a-b762-d9363cf46d3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XT60"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6800b5c-62bf-47f8-81f5-3e733174240b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45bbfa1d-0a11-45f2-b365-d471b6fd349e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8697456-0454-48b9-945c-560405626440")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "+"
+		(at -7.62 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0cc34da3-43c1-4dad-8e7c-f2048e5faf12")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 7.62 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "327d5c10-2eed-4bae-ab38-a55758cb27b7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "65cfee55-d51e-4a53-81db-ad0b88a52f6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.556 0 180)
+		(size 2.54 5.08)
+		(layers "F.Cu" "F.Mask" "F.Adhes" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "49a4d6c0-c02e-418b-80e2-2afa55eb8baf")
+	)
+	(pad "2" smd roundrect
+		(at 3.556 0 180)
+		(size 2.54 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8e701707-51ae-4f49-b336-aec1c2daa283")
+	)
+	(embedded_fonts no)
+)
