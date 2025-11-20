@@ -5,6 +5,28 @@
 	(uuid "f2da9442-ca05-4687-a880-d5cd24c39f1d")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 48.26 93.98)
+		(end 128.27 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c35a8034-772e-4637-a648-e1d2d84d3a30)
+	)
+	(text "DELETE BEFORE YOU MERGE IDIOT"
+		(exclude_from_sim no)
+		(at 87.884 139.7 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9293812c-8788-4aca-a663-0cb9268e59dc")
+	)
 	(sheet
 		(at 161.29 44.45)
 		(size 34.29 35.56)
