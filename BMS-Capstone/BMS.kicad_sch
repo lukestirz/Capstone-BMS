@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 67.31 100.33)
+		(size 40.64 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0fa851b-ec8c-46af-afd4-efd0cc860c1e")
+		(property "Sheetname" "Monitoring"
+			(at 67.31 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Monitoring.kicad_sch"
+			(at 67.31 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS"
+				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 49.53 45.72)
 		(size 24.13 31.75)
 		(exclude_from_sim no)
