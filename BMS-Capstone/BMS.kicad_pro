@@ -625,6 +625,10 @@
     [
       "26bdc180-da09-44b1-8397-e88b39d0135c",
       "Teensy 4.0"
+    ],
+    [
+      "b0fa851b-ec8c-46af-afd4-efd0cc860c1e",
+      "Monitoring"
     ]
   ],
   "text_variables": {}
