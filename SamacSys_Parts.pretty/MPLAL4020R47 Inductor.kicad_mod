@@ -1,0 +1,233 @@
+(footprint "MPLAL4020R47 Inductor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MPL-AL4020-R47-1")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 4 -3 0)
+		(layer "F.SilkS")
+		(uuid "39fbcb25-129f-44d4-94f2-fc79bd8cefc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MPLAL4020R47 Inductor"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7c2b48a-beaa-454b-811b-ae0fb45c0056")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f994070-da82-4c60-bb71-f1f2df703ce8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa337625-7bb9-48c7-959b-b373b6e88ca2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0a2b4bf-d2eb-4cd0-af23-47ccc95183ee")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20c1723c-4951-44fe-9faf-985077f5c3cf")
+	)
+	(fp_line
+		(start -2.05 -2.05)
+		(end -2.05 2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "064c30fd-67c5-4d76-bc66-32dc784cb5e2")
+	)
+	(fp_line
+		(start 2.05 -2)
+		(end 2.05 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f145ab23-19e6-4c6d-843b-8cfa05a4d5c7")
+	)
+	(fp_arc
+		(start -2.6 0)
+		(mid -2.55 -0.05)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c3f6a6b-7177-4b6c-895a-17dbcc42bb6d")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.55 0.05)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55760fc6-0e26-4b03-a02d-fc0bf1c9a36a")
+	)
+	(fp_line
+		(start -3.05 -3.05)
+		(end 3.05 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb3f1ad6-b1c6-4800-9560-1ece945b3369")
+	)
+	(fp_line
+		(start -3.05 3.05)
+		(end -3.05 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a0e724f-c2bc-4af5-97ca-ead149d212b8")
+	)
+	(fp_line
+		(start 3.05 -3.05)
+		(end 3.05 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9cb8b0f-4399-478e-aad4-6c242d8e425e")
+	)
+	(fp_line
+		(start 3.05 3.05)
+		(end -3.05 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1490757c-a987-443a-973e-a2ffc89742e6")
+	)
+	(fp_line
+		(start -2.05 -2.05)
+		(end 2.05 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30fe2884-379a-4f36-beb3-784a93a78cc0")
+	)
+	(fp_line
+		(start -2.05 2.05)
+		(end -2.05 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4882932d-0fb9-4450-83f2-b4f52ec3a13b")
+	)
+	(fp_line
+		(start 2.05 -2.05)
+		(end 2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d20c43f2-6ed0-489a-a646-0ef7fa61a3fd")
+	)
+	(fp_line
+		(start 2.05 2.05)
+		(end -2.05 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c01522a-643a-447c-837c-22894b70cd93")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 -7 0)
+		(layer "F.Fab")
+		(uuid "d870056b-d783-4b94-8a61-734d3a25dae4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 1 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9da7b35b-5c84-4321-a161-caf33de20f7d")
+	)
+	(pad "2" smd rect
+		(at 1.2 0)
+		(size 1 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8f08417-6a23-438d-a3e9-2980cfe02200")
+	)
+	(embedded_fonts no)
+	(model "C:\\KiCAD Libraries\\SamacSys Libraries\\SamacSys_Parts.3dshapes\\MPL-AL4020-R47.stp"
+		(offset
+			(xyz 0 0 1.899999948)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
+)
