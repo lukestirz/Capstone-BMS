@@ -7965,7 +7965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 279.4 0)
 			(effects
 				(font
@@ -8035,7 +8035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 378.46 172.72 0)
 			(effects
 				(font
@@ -8248,7 +8248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 318.77 82.55 0)
 			(effects
 				(font
@@ -8316,7 +8316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 344.17 121.92 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 496.57 0)
 			(effects
 				(font
@@ -8429,7 +8429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f047353-20a2-422a-8e5c-29445aeb6059")
-		(property "Reference" "R5"
+		(property "Reference" "R5_B1"
 			(at 300.99 80.0099 0)
 			(effects
 				(font
@@ -8456,7 +8456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 298.45 81.28 0)
 			(effects
 				(font
@@ -8483,7 +8483,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "R5")
+					(reference "R5_B1")
 					(unit 1)
 				)
 			)
@@ -8526,7 +8526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 321.31 372.11 0)
 			(effects
 				(font
@@ -8596,7 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 303.53 452.12 0)
 			(effects
 				(font
@@ -8666,7 +8666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 293.37 336.55 0)
 			(effects
 				(font
@@ -8734,7 +8734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 346.71 488.95 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 279.4 0)
 			(effects
 				(font
@@ -8872,7 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 354.33 35.56 0)
 			(effects
 				(font
@@ -8942,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 293.37 350.52 0)
 			(effects
 				(font
@@ -9225,7 +9225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 372.11 464.82 0)
 			(effects
 				(font
@@ -9295,7 +9295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 295.91 430.53 0)
 			(effects
 				(font
@@ -9511,7 +9511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 307.34 323.85 0)
 			(effects
 				(font
@@ -9581,7 +9581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 298.45 534.67 0)
 			(effects
 				(font
@@ -9624,7 +9624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "288d9f1e-223c-40e5-99a5-e35833fb63db")
-		(property "Reference" "C11"
+		(property "Reference" "C11_B1"
 			(at 307.34 264.1599 0)
 			(effects
 				(font
@@ -9651,7 +9651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 303.53 265.43 0)
 			(effects
 				(font
@@ -9678,7 +9678,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "C11")
+					(reference "C11_B1")
 					(unit 1)
 				)
 			)
@@ -9719,7 +9719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 351.79 398.78 0)
 			(effects
 				(font
@@ -9975,7 +9975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f087d8b-5c53-48ec-b228-cb63112c4aba")
-		(property "Reference" "R6"
+		(property "Reference" "R6_B1"
 			(at 377.19 100.3299 0)
 			(effects
 				(font
@@ -10002,7 +10002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 101.6 0)
 			(effects
 				(font
@@ -10029,7 +10029,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "R6")
+					(reference "R6_B1")
 					(unit 1)
 				)
 			)
@@ -10072,7 +10072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 326.39 556.26 0)
 			(effects
 				(font
@@ -10142,7 +10142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 295.91 153.67 0)
 			(effects
 				(font
@@ -10212,7 +10212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 372.11 278.13 0)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 372.11 406.4 0)
 			(effects
 				(font
@@ -10352,7 +10352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 309.88 417.83 0)
 			(effects
 				(font
@@ -10420,7 +10420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 354.33 488.95 0)
 			(effects
 				(font
@@ -10490,7 +10490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 189.23 0)
 			(effects
 				(font
@@ -10558,7 +10558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 341.63 304.8 0)
 			(effects
 				(font
@@ -10841,7 +10841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 339.09 556.26 0)
 			(effects
 				(font
@@ -10911,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 369.57 312.42 0)
 			(effects
 				(font
@@ -10981,7 +10981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 466.09 0)
 			(effects
 				(font
@@ -11048,7 +11048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 316.23 168.91 0)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 43.18 0)
 			(effects
 				(font
@@ -11332,7 +11332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 340.36 220.98 0)
 			(effects
 				(font
@@ -11402,7 +11402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 298.45 520.7 0)
 			(effects
 				(font
@@ -11472,7 +11472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 303.53 175.26 0)
 			(effects
 				(font
@@ -11542,7 +11542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 554.99 0)
 			(effects
 				(font
@@ -11758,7 +11758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 372.11 219.71 0)
 			(effects
 				(font
@@ -11801,7 +11801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81e33fd8-2cb4-4352-afce-4c23a260ed74")
-		(property "Reference" "C16"
+		(property "Reference" "C16_B1"
 			(at 304.8 356.8699 0)
 			(effects
 				(font
@@ -11828,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 300.99 358.14 0)
 			(effects
 				(font
@@ -11855,7 +11855,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "C16")
+					(reference "C16_B1")
 					(unit 1)
 				)
 			)
@@ -11897,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 342.9 44.45 0)
 			(effects
 				(font
@@ -11967,7 +11967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 312.42 54.61 0)
 			(effects
 				(font
@@ -12037,7 +12037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 378.46 262.89 0)
 			(effects
 				(font
@@ -12107,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 306.07 88.9 0)
 			(effects
 				(font
@@ -12508,7 +12508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ad2a03-f284-47a0-ade4-07e8aec2e6d1")
-		(property "Reference" "C10"
+		(property "Reference" "C10_B1"
 			(at 375.92 128.2699 0)
 			(effects
 				(font
@@ -12535,7 +12535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 372.11 129.54 0)
 			(effects
 				(font
@@ -12562,7 +12562,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "C10")
+					(reference "C10_B1")
 					(unit 1)
 				)
 			)
@@ -12605,7 +12605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 372.11 187.96 0)
 			(effects
 				(font
@@ -12966,7 +12966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 306.07 542.29 0)
 			(effects
 				(font
@@ -13036,7 +13036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 189.23 0)
 			(effects
 				(font
@@ -13251,7 +13251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 334.01 372.11 0)
 			(effects
 				(font
@@ -13294,7 +13294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a395c70b-8917-43cf-a9a9-33cc40f3fa11")
-		(property "Reference" "R1"
+		(property "Reference" "R1_B1"
 			(at 341.63 101.5999 0)
 			(effects
 				(font
@@ -13321,7 +13321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 339.09 102.87 0)
 			(effects
 				(font
@@ -13348,7 +13348,7 @@
 		(instances
 			(project ""
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "R1")
+					(reference "R1_B1")
 					(unit 1)
 				)
 			)
@@ -13535,7 +13535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 351.79 212.09 0)
 			(effects
 				(font
@@ -13604,7 +13604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 340.36 130.81 0)
 			(effects
 				(font
@@ -13647,7 +13647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad157ecd-0ca3-403b-846b-58f4b07b0db2")
-		(property "Reference" "C12"
+		(property "Reference" "C12_B1"
 			(at 313.69 229.8699 0)
 			(effects
 				(font
@@ -13674,7 +13674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 309.88 231.14 0)
 			(effects
 				(font
@@ -13701,7 +13701,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "C12")
+					(reference "C12_B1")
 					(unit 1)
 				)
 			)
@@ -13841,7 +13841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 316.23 445.77 0)
 			(effects
 				(font
@@ -13908,7 +13908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 313.69 351.79 0)
 			(effects
 				(font
@@ -13978,7 +13978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 381 539.75 0)
 			(effects
 				(font
@@ -14046,7 +14046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 349.25 304.8 0)
 			(effects
 				(font
@@ -14114,7 +14114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 344.17 398.78 0)
 			(effects
 				(font
@@ -14327,7 +14327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 351.79 121.92 0)
 			(effects
 				(font
@@ -14397,7 +14397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 295.91 243.84 0)
 			(effects
 				(font
@@ -14467,7 +14467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 309.88 140.97 0)
 			(effects
 				(font
@@ -14536,7 +14536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 340.36 407.67 0)
 			(effects
 				(font
@@ -14606,7 +14606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 375.92 355.6 0)
 			(effects
 				(font
@@ -14649,7 +14649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8168f74-c5ef-43f3-8b5e-a1b0d439a025")
-		(property "Reference" "R2"
+		(property "Reference" "R2_B1"
 			(at 328.93 101.5999 0)
 			(effects
 				(font
@@ -14676,7 +14676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 326.39 102.87 0)
 			(effects
 				(font
@@ -14703,7 +14703,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "R2")
+					(reference "R2_B1")
 					(unit 1)
 				)
 			)
@@ -14865,7 +14865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d975223e-3dc5-447c-bcd2-0d57574b35ed")
-		(property "Reference" "R4"
+		(property "Reference" "R4_B1"
 			(at 300.99 66.0399 0)
 			(effects
 				(font
@@ -14892,7 +14892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 298.45 67.31 0)
 			(effects
 				(font
@@ -14919,7 +14919,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "R4")
+					(reference "R4_B1")
 					(unit 1)
 				)
 			)
@@ -15175,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 295.91 167.64 0)
 			(effects
 				(font
@@ -15457,7 +15457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 342.9 497.84 0)
 			(effects
 				(font
@@ -15525,7 +15525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 346.71 35.56 0)
 			(effects
 				(font
@@ -15595,7 +15595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 381 86.36 0)
 			(effects
 				(font
@@ -15665,7 +15665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 312.42 508 0)
 			(effects
 				(font
@@ -15708,7 +15708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe50a60-7e20-496c-8f2e-d5e470819e77")
-		(property "Reference" "C14"
+		(property "Reference" "C14_B1"
 			(at 344.17 204.47 90)
 			(effects
 				(font
@@ -15733,7 +15733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 344.17 212.09 0)
 			(effects
 				(font
@@ -15760,7 +15760,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "C14")
+					(reference "C14_B1")
 					(unit 1)
 				)
 			)
@@ -15800,7 +15800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 318.77 535.94 0)
 			(effects
 				(font
@@ -15870,7 +15870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 369.57 370.84 0)
 			(effects
 				(font
@@ -15940,7 +15940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 466.09 0)
 			(effects
 				(font
@@ -16009,7 +16009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 337.82 313.69 0)
 			(effects
 				(font
@@ -16051,7 +16051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f30aa9ee-55b5-45fd-be48-e73e773a47b5")
-		(property "Reference" "C13"
+		(property "Reference" "C13_B1"
 			(at 313.69 255.778 90)
 			(effects
 				(font
@@ -16076,7 +16076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 316.23 259.08 0)
 			(effects
 				(font
@@ -16103,7 +16103,7 @@
 		(instances
 			(project "BMS"
 				(path "/f2da9442-ca05-4687-a880-d5cd24c39f1d/3dc06e74-ff57-4ce5-be5c-5d780b9552b6"
-					(reference "C13")
+					(reference "C13_B1")
 					(unit 1)
 				)
 			)
@@ -16146,7 +16146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 295.91 257.81 0)
 			(effects
 				(font
@@ -16216,7 +16216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 378.46 449.58 0)
 			(effects
 				(font
@@ -16286,7 +16286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 295.91 444.5 0)
 			(effects
 				(font
