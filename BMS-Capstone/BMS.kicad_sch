@@ -24,12 +24,6 @@
 		(uuid "70ee2865-964d-4195-95ca-8b29f76e8203")
 	)
 	(junction
-		(at 53.34 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f5c5118-30dd-4198-90f0-dea272c088b2")
-	)
-	(junction
 		(at 92.71 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -138,16 +132,6 @@
 			(type default)
 		)
 		(uuid "1a31aff6-3049-4567-adea-3c799c8e3aee")
-	)
-	(wire
-		(pts
-			(xy 143.51 52.07) (xy 143.51 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206c3448-7383-4d85-b66a-28c9ece2f1cf")
 	)
 	(wire
 		(pts
@@ -331,16 +315,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 139.7) (xy 53.34 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520986b7-118b-4af8-a1de-8b07296f370f")
-	)
-	(wire
-		(pts
 			(xy 106.68 119.38) (xy 152.4 119.38)
 		)
 		(stroke
@@ -358,6 +332,16 @@
 			(type default)
 		)
 		(uuid "55ce9cbe-04d7-41b3-b5c1-f05ffb6ba838")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58df4e57-916c-4997-8e89-72b405b49f22")
 	)
 	(wire
 		(pts
@@ -461,16 +445,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 139.7) (xy 53.34 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e3c2662-5ad6-4aad-8f42-4f5f00df1755")
-	)
-	(wire
-		(pts
 			(xy 66.04 121.92) (xy 55.88 121.92)
 		)
 		(stroke
@@ -541,6 +515,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba88417-2ae4-4883-864c-8dc22fc8b4ab")
+	)
+	(wire
+		(pts
 			(xy 59.69 114.3) (xy 59.69 88.9)
 		)
 		(stroke
@@ -608,16 +592,6 @@
 			(type default)
 		)
 		(uuid "a5b0f154-a465-4092-b4db-f2bfea43b4fd")
-	)
-	(wire
-		(pts
-			(xy 161.29 52.07) (xy 143.51 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add0ad3c-371d-43de-b965-1da5f701967b")
 	)
 	(wire
 		(pts
@@ -718,6 +692,16 @@
 			(type default)
 		)
 		(uuid "e7ec0634-7c89-487d-8cfe-578fcbbd79e9")
+	)
+	(wire
+		(pts
+			(xy 151.13 52.07) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07f8a45-e554-4a68-8717-5cef0de76319")
 	)
 	(wire
 		(pts
@@ -1058,7 +1042,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 106.68 105.41 0)
+			(at 106.68 104.14 0)
 			(uuid "873b3f33-a569-486a-9676-c8a652f41fb5")
 			(effects
 				(font
@@ -1130,6 +1114,16 @@
 		(pin "SPI_SCLK" input
 			(at 106.68 127 0)
 			(uuid "471a2830-b08f-4cc6-88a1-09a57f090554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 106.68 106.68 0)
+			(uuid "ef28b6db-357b-4b9b-ab3c-e629de689247")
 			(effects
 				(font
 					(size 1.27 1.27)
