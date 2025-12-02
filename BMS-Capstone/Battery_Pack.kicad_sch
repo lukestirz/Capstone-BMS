@@ -3296,7 +3296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PACKGND"
 			(at 134.62 184.15 0)
 			(effects
 				(font
@@ -3707,7 +3707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S13B-XH-A-1_1x13_P2.50mm_Horizontal"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -3867,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PACKGND"
 			(at 139.7 43.18 0)
 			(effects
 				(font
