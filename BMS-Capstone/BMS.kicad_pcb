@@ -45221,11 +45221,11 @@
 		(uuid "69d4d828-e596-4d47-a545-ea2fd0de6093")
 	)
 	(gr_rect
-		(start 34 41.75)
-		(end 144 111.75)
+		(start 32.4 29.845)
+		(end 142.4 122.555)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
