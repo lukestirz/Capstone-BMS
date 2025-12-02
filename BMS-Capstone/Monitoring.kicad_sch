@@ -6672,7 +6672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDM"
 			(at 394.97 290.83 0)
 			(effects
 				(font

@@ -1177,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 116.84) (xy 110.49 116.84)
+			(xy 127 86.36) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 110.49 96.52)
+			(xy 101.6 93.98) (xy 101.6 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 111.76) (xy 127 111.76)
+			(xy 110.49 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 109.22) (xy 127 109.22)
+			(xy 110.49 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 127 93.98)
+			(xy 101.6 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 114.3) (xy 127 114.3)
+			(xy 110.49 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1325,9 +1325,9 @@
 		)
 		(uuid "f269101f-227d-4ce0-9d72-4ec750fa49cb")
 	)
-	(hierarchical_label "SCL0"
+	(hierarchical_label "MISO"
 		(shape input)
-		(at 110.49 116.84 180)
+		(at 110.49 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1336,9 +1336,9 @@
 		)
 		(uuid "0bc7c8ad-a9ab-4768-b0cc-4ceb493b0584")
 	)
-	(hierarchical_label "SCL1"
+	(hierarchical_label "SCK"
 		(shape input)
-		(at 110.49 109.22 180)
+		(at 110.49 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1369,9 +1369,9 @@
 		)
 		(uuid "1220c3a3-762e-487d-9b2c-fe654f7abc7a")
 	)
-	(hierarchical_label "SDA1"
+	(hierarchical_label "CS"
 		(shape input)
-		(at 110.49 111.76 180)
+		(at 110.49 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1380,9 +1380,9 @@
 		)
 		(uuid "4d5efb12-73eb-43ff-bc98-9b8f2b25a57d")
 	)
-	(hierarchical_label "SDA0"
+	(hierarchical_label "MOSI"
 		(shape input)
-		(at 110.49 114.3 180)
+		(at 110.49 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1393,7 +1393,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 96.52 0)
+		(at 101.6 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1402,7 +1402,7 @@
 		(fields_autoplaced yes)
 		(uuid "034375ec-a618-4384-89e2-3c3cc3be61bd")
 		(property "Reference" "#PWR09"
-			(at 110.49 102.87 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 101.6 0)
+			(at 101.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 96.52 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 96.52 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 96.52 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
