@@ -6,10 +6,16 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 176.53 87.63)
+		(at 176.53 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29dd606a-49dc-462b-85ae-75b43b021d53")
+		(uuid "14f6f188-2666-41a6-a4c4-46150a418d11")
+	)
+	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37eaacc9-e31c-4918-bc43-6649e816bcad")
 	)
 	(wire
 		(pts
@@ -33,7 +39,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 80.01) (xy 176.53 87.63)
+			(xy 176.53 80.01) (xy 176.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -173,6 +179,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 76.2) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242c0768-8cf6-456d-95e4-c2bfa1f1eaf9")
+	)
+	(wire
+		(pts
 			(xy 137.16 62.23) (xy 161.29 62.23)
 		)
 		(stroke
@@ -190,6 +206,16 @@
 			(type default)
 		)
 		(uuid "2af94364-e2ca-4179-ab02-f07178200fe5")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 115.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9afad5-f615-4ed8-9a3e-d74d2b71ac2d")
 	)
 	(wire
 		(pts
@@ -403,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 124.46 87.63)
+			(xy 120.65 76.2) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
@@ -493,6 +519,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753bdb4d-9ef5-4efd-87c6-b270535c7151")
+	)
+	(wire
+		(pts
 			(xy 90.17 68.58) (xy 101.6 68.58)
 		)
 		(stroke
@@ -500,16 +536,6 @@
 			(type default)
 		)
 		(uuid "75fb9e1c-3e53-4b1f-a67b-3941a38207a8")
-	)
-	(wire
-		(pts
-			(xy 176.53 87.63) (xy 176.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76bbeca5-42ed-4882-a49d-0c46a64a67cd")
 	)
 	(wire
 		(pts
@@ -540,6 +566,16 @@
 			(type default)
 		)
 		(uuid "82d49617-8b06-4958-8389-693046628387")
+	)
+	(wire
+		(pts
+			(xy 176.53 90.17) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8603c1c6-5c27-4074-8a4e-34b5ec609559")
 	)
 	(wire
 		(pts
@@ -703,6 +739,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 87.63) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5df4739-d2a0-4182-9bbf-106f67176182")
+	)
+	(wire
+		(pts
 			(xy 137.16 59.69) (xy 161.29 59.69)
 		)
 		(stroke
@@ -723,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 176.53 87.63)
+			(xy 120.65 90.17) (xy 176.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -773,6 +819,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 87.63) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c141ce-186d-4b35-9214-946a6c8e9314")
+	)
+	(wire
+		(pts
 			(xy 106.68 101.6) (xy 173.99 101.6)
 		)
 		(stroke
@@ -813,7 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 101.6) (xy 173.99 80.01)
+			(xy 173.99 101.6) (xy 173.99 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1382,7 @@
 			)
 		)
 		(pin "MCUGND" input
-			(at 124.46 76.2 270)
+			(at 120.65 76.2 270)
 			(uuid "b1369187-e411-4343-b48d-42db924d0d97")
 			(effects
 				(font
@@ -1368,6 +1424,26 @@
 		(pin "RELAY" input
 			(at 128.27 76.2 270)
 			(uuid "fa28522f-fd5c-4e8c-a99e-3dfcf84c371e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3v" input
+			(at 124.46 76.2 270)
+			(uuid "f312ea4a-374f-4839-839f-8c503c8752cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5v" input
+			(at 115.57 76.2 270)
+			(uuid "06835715-e5ec-48f1-8234-2f56eac4b3b1")
 			(effects
 				(font
 					(size 1.27 1.27)
