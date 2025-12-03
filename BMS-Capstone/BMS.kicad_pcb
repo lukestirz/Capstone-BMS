@@ -9,8 +9,6 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -57,30 +55,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "prepreg")
-				(thickness 0.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 3"
-				(type "prepreg")
-				(thickness 0.1)
+				(thickness 1.51)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -41383,7 +41359,7 @@
 			(at 3.048 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "102a9e82-b486-416a-82ab-8f8caf8c925a")
+			(uuid "08eef9b3-387b-4a1b-b017-b6d883eb3ca4")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -41395,7 +41371,7 @@
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7233dd6-11d3-43b0-88ed-b2e39cadcbd5")
+			(uuid "fc2104dd-b594-4059-8f87-71e227910cf3")
 			(effects
 				(font
 					(size 1 1)
@@ -41407,7 +41383,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c04a4ec6-3166-4c88-afd4-69eac6f27d2e")
+			(uuid "4728845e-059c-48f0-a704-4ae68792e798")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41419,7 +41395,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d7f74e1-2012-41d6-85f4-51b4b91f6faa")
+			(uuid "216d2a69-1091-47be-829f-0475fb5e803d")
 			(effects
 				(font
 					(size 1.27 1.27)
